@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Poppins", sans-serif;
+  
+  --fw-base: 400;
+  --fw-bold: 800;
+
+  --fs-sm: .75rem;
+  --fs-base: .875rem;
+  --fs-lg: 2rem;
+
+  --font-pms: var(--fw-base) var(--fs-sm)/1.7 var(--font-family);
+  --font-pmd: var(--fw-base) var(--fs-base)/1.7 var(--font-family);
+  --font-h: var(--fw-bold) var(--fs-lg)/1.7 var(--font-family);
+
+  --brand-color:#EF5F4C;
+  --bg-color:#FFFFFF;
+  --surface-color:#F5F5F5;
+  --skeleton-color:#d9d9d9;
+  --shape-transparency:rgb(255, 255, 255, 0.56);
+  --text-color-primary: #313131;
+  --text-color-secondary:#6C6C6C ;
+}
