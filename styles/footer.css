@@ -1,0 +1,28 @@
+footer {
+  text-align: center;
+  & span {
+    font: var(--fw-base) var(--fs-sm)/1.5 var(--font-family);
+    margin-bottom: 1rem;
+  }
+
+  & > div {
+ justify-content: center;
+    & a {
+      font: var(--fw-base) var(--fs-sm)/1.5 var(--font-family);
+    }
+  }
+
+}
+@media (width >= 80rem) {
+  footer {
+      display: flex;
+      align-items: center;
+      padding-inline: 2rem;
+
+      & div + div {
+        margin-left: auto;
+      }
+     
+      
+  }
+}

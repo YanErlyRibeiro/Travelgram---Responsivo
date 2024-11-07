@@ -25,4 +25,37 @@
   --shape-transparency:rgb(255, 255, 255, 0.56);
   --text-color-primary: #313131;
   --text-color-secondary:#6C6C6C ;
+
+  --px-lg: 1rem;
+  --px-xl: 2rem;
+
+  --py-base: 1rem ;
+  --py-lg: 2rem;
+}
+
+body {
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
+
+a { 
+  cursor: pointer;
+  text-decoration: none;
+  font: var(--fw-base) 1rem/1.5 var(--font-family);
+}
+
+a, p ,span {
+  color: var(--text-color-secondary);
+}
+
+h1 {
+  color:var(--text-color-primary);
+}
+
+@media (width >= 80em) {
+:root {
+  --px-lg: 2rem; 
+  --py-base: 1.25rem;
+}
+ 
 }
